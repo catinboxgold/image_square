@@ -1,0 +1,13 @@
+html, body { width: 100%; height: 100%; display: flex; align-items: center; }
+
+
+#Yes{width: 156px;;}
+
+
+
+button{width: 156px;}
+.btn-outline-danger {
+    color: #fff;
+    background-color: #66FF66;
+    border-color: #dc3545;
+}

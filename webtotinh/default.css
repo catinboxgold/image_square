@@ -1,0 +1,58 @@
+body{margin:0;padding:0;background:#ffe;font-size:14px;font-family:'微软雅黑','宋体',sans-serif;color:#231F20;overflow:auto;zoom: 80%}
+a {color:#000;font-size:14px;}
+#main{width:100%;}
+#wrap{position:relative;margin:0 auto;width:1100px;height:680px;margin-top:10px;}
+#text{width:400px;height:425px;left:60px;top:80px;position:absolute;}
+#code{display:none;font-size:16px;}
+#clock-box {position:absolute;left:60px;top:550px;font-size:28px;display:none;}
+#clock-box a {font-size:28px;text-decoration:none;}
+#clock{margin-left:48px;}
+#clock .digit {font-size:64px;}
+#canvas{margin:0 auto;width:1100px;height:680px;}
+#error{margin:0 auto;text-align:center;margin-top:60px;display:none;}
+.hand{cursor:pointer;}
+.say{margin-left:5px;}
+.space{margin-right:150px;}
+.amnhac{margin-left: 50px; margin-top: 20px;
+   padding: 3px;
+   outline: 0;
+   font-size: 17px;
+   color: rgb(255, 255, 255);
+   background: -webkit-gradient(
+     linear,
+     left top,
+     right top,
+     from(#fdde5c),
+     color-stop(#f8ab5e),
+     color-stop(#f56a62),
+     color-stop(#a176c8),
+     color-stop(#759beb),
+     color-stop(#65beb3),
+     to(#70db96)
+   );
+   background: linear-gradient(
+     to right,
+     #fdde5c,
+     #f8ab5e,
+     #f56a62,
+     #a176c8,
+     #759beb,
+     #65beb3,
+     #70db96
+   );
+   border-radius: 12px;
+   border: 0;
+   box-shadow: none;
+   cursor: pointer;
+ }
+.amnhac > span {
+   color: black;
+   display: block;
+   padding: 10px 20px;
+   font-size: 17px;
+   background: pink;
+   border-radius: 12px;
+}
+
+#hover1:hover{opacity: 100%;}
+#click1:active{background: green;}
